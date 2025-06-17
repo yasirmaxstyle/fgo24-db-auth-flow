@@ -23,7 +23,7 @@ registration{
 login{
     string id_login PK
     string token
-    string id_client FK
+    string id_user FK
 }
 
 user{
