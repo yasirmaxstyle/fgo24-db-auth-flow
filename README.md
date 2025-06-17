@@ -6,7 +6,7 @@ title: ERD AUTH FLOW
 erDiagram
 direction LR
     client }o--o|registration : do
-    registration }o--o|user : register
+    registration |o--o{user : register
     user }o--o|login : do
 
 client{
